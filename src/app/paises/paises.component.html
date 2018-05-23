@@ -1,0 +1,18 @@
+<table>
+
+    <thead>
+        <tr>
+            <td width="25%"><b>Bandera</b></td>
+            <td width="20%"><b>Code</b></td>
+            <td width="80%"><b>Pais</b></td>
+        </tr>
+    </thead>
+    <tr *ngFor="let team of teams">
+        <td>{{team.emojiString}}</td>
+        <td>{{team.fifaCode}}</td>
+        <td>{{team.name}}</td>
+    </tr>
+    <tbody>
+
+    </tbody>
+</table>
